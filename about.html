@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Nutrielement</title>
+    <title>About|Nutrielement</title>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
     <style>
         body{
-            background-color: rgba(240, 46, 170, 0.4);
+            background-color: rgb(31, 30, 30);
             font-family: 'Teko', sans-serif;
             margin: 0;
             padding: 0;
+            font-size: large;
         }
         #heading{
             font-style: italic;
@@ -21,64 +22,128 @@
             background-color: white;
             margin: 0px;
             padding: 30px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            box-shadow: 0 5px 15px rgba(240, 46, 170, 0.4);
         }
         hr{
             height: 2px;
             background-color: white;
         }
-        p{
+        #one p{
             font-style: italic;
             font-size: larger;
-            margin: 100px;
+            margin-top: 50px;
+            margin-left: 100px;
+            margin-right: 100px;
+            text-align: center;
+            color: white;
+            
+        }
+        #quote{
+            font-size: xx-large;
+            font-weight: 500;
+        }
+        #two{
+            color: white;
+        }
+        #two p{
+            color: white;
+            text-align: center;
+            font-size: x-large;
         }
         footer{
             background-color: white;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            
+            box-shadow: 0 5px 15px rgba(240, 46, 170, 0.4);
         }
         h5{
-            text-align: left;
             font-style: italic;
+            text-align: center;
         }
         #heart{
             color: red;
         }
-        ul{
+        footer ul{
             box-sizing: border-box;
             width: 300px;
             display: flex;
             margin: auto;
         }
-        li{
+        footer li{
             list-style: none;
             margin-right: 50px;
             cursor: pointer;
-        }
-        h5{
-            text-align: center;
         }
         #span{
             margin-left: 1250px;
             margin-top: 0;
             margin-bottom: 0;
         }
+        .team{
+            border: 2px solid white;
+            border-radius: 50%;
+            margin-top: 0;
+            margin-left: 150px;
+            box-shadow: 0 5px 15px rgba(240, 46, 170, 0.4);
+
+        }
+        .member ul{
+            display: flex;
+        }
+        .member li{
+            list-style: none;
+        }
+        figcaption{
+            margin-left:200px;
+        }
     </style>
 </head>
 <body>
-    <h1 id="heading">About Us <span id="span"><img src="logofinal.png" alt="" width="200px" height="100px"></span></h1>
+    <h1 id="heading">About Us</h1>
+    
+    <section id="one">
+        <p id="quote">
+            “A Healthier, Happier You”
+        </p>
+        <p>
+            Our Mission:
+            To inspire hope and contribute to health and well-being by providing the best diet and fitness plan according to one’s requirement.
+        </p>
+        <p>
+            Nutrielement is a website which takes input from user and calculate BMI. Based on the BMI, it will suggest NUtrition Plan as well as a fitness plan which helps user in improving their health. 
+            The creativity, styles and efforts putted by our members to build this gem makes it unique and different.    
+        </p>
+    </section>
     <hr>
-    <p>A diet and nutrition portal which generates a nutrition plant based on your body mass index.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis maxime eum eaque asperiores? Corporis, autem. Illum, autem cupiditate animi sint ad quod perferendis?
-    </p>
-    <hr>
-    <p>We aim to better the lives of the people and provide then a nutritious life.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore suscipit in delectus corrupti autem, nesciunt quisquam quos. Deserunt iure nulla quae. Deleniti esse iusto porro vitae autem eaque laborum error.
-    </p>
+    <section id="two">
+        <p>
+        Our Team
+        </p>
+        <div class="member">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="krishna.jpg" alt="" width="200px" height="200px" class="team">
+                        <figcaption>Krishna Agrawal</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="Bhanu.jpg" alt="" width="200px" height="200px" class="team">
+                        <figcaption>Bhanu Pratap Singh</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="Abhishek.jpg" alt="" width="200px" height="200px" class="team">
+                        <figcaption>Abhishek Tripathi</figcaption>
+                    </figure>
+                </li>
+            </ul>        
+        </div>
+    </section>
     <footer>
         <h5>Follow Us on our Social Media platforms</h5>
         <ul>
-            <li> <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" width="35px" height="35px"></li>
+            <li><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" width="35px" height="35px"></li>
             <li><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="" width="35px" height="35px"></li>
             <li><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="" width="35px" height="35px"></li>
         </ul>
