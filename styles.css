@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Teko', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     text-align: center;
