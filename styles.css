@@ -5,6 +5,7 @@
     font-family: 'Teko', sans-serif;
     scroll-behavior: smooth;
 }
+
 body{
     text-align: center;
 }
@@ -66,7 +67,7 @@ img:hover{
     box-shadow: 0 5px 15px rgba(240, 46, 170, 0.4);
   } 
 
-   hr{
+  hr{
     /* background-color:white; */
     background-color: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px;
   }
@@ -139,13 +140,16 @@ button:hover{
 }
 
   #bmidata{
-    width: 300px;
+    width: 500px;
     position: absolute;
-    top: 150%;
-    right: 22%;
-
+    top: 140%;
+    right: 16%;
+    color: white;
   }
   #p2{
     font-weight: 500;
     font-style: italic;
   }
+
+
+  
